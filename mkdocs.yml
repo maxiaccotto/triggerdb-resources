@@ -1,0 +1,21 @@
+site_name: TriggerDB Resources
+site_url: https://resources.triggerdb.com
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: red    # El color principal de TriggerDB
+      accent: red
+    - scheme: slate   # El modo oscuro automático para los técnicos
+      primary: red
+      accent: red
+  features:
+    - content.code.copy # ¡Esto activa el botón de "Copy" automático!
+    - content.code.annotate
+    - navigation.sections
+
+nav:
+  - Welcome: index.md
+  - SQL Server & Azure SQL:
+    - Pack Performance CPU: sql/performance-cpu.md
