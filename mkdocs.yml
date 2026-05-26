@@ -16,6 +16,6 @@ theme:
     - navigation.sections
 
 nav:
-  - Welcome: index.md
-  - SQL Server & Azure SQL:
-    - Pack Performance CPU: sql/performance-cpu.md
+  - Welcome: 'index.md'
+  - 'SQL Server & Azure SQL':
+    - 'Pack Performance CPU': 'sql/performance-cpu.md'
